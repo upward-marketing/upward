@@ -1,0 +1,394 @@
+/*
+Theme Name: Upward Theme
+Theme URI: http://upward.website
+
+Author: Upward Internet Marketing
+Author URI: https://upward.website
+
+Description: Google Material Design and Bootstrap 3 in one amazing Wordpress theme with all the love of yo' mommas cooking. The BETA Version.  Includes right-sidebar, fluid-layout, responsive-layout, custom-menu, full-width-template, sticky-post, theme-options, translation-ready, left-sidebar and more.
+
+Version: 0.0.1
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Text Domain: upwardIM
+Tags: right-sidebar, fluid-layout, responsive-layout, custom-menu, full-width-template, sticky-post, theme-options, translation-ready, left-sidebar
+
+Upward Marketing Theme is based on:
+Underscores - http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+MaterialWP - By Brad Williams - http://braginteractive.com/
+Material Design for Bootstrap (MDB) - http://mdbootstrap.com/
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of:
+Eric Meyer - http://meyerweb.com/eric/tools/css/reset/index.html
+Nicolas Gallagher and Jonathan Neal - http://necolas.github.com/normalize.css/
+Blueprint -  http://www.blueprintcss.org/
+
+*/
+
+/** Default Styles **/
+
+body{
+ padding-top:75px; 
+}
+
+a.btn-danger {
+    background:#C00;
+	color:#fff !important;
+	text-decoration:none;
+}
+
+
+/** Footer Styles **/
+
+#footer-copy-wrap .menu  ul li{
+display:inline;
+list-style:none;
+text-align:center;
+}
+#footer-copy-wrap .menu  li{
+display:inline;
+list-style:none;
+margin:4px;
+}
+
+#footer-copy-wrap ul, #footer-info-wrap ul{
+margin:0px;
+padding:0px;
+
+}
+
+#footer-info-wrap  li{
+line-height:2.5;
+width:100%;
+height:auto;
+margin-top:5px;
+margin-bottom:5px;
+}
+
+#footer-copy   ul{
+margin-left:0px;
+
+}
+
+
+#footer-info-wrap{
+ background-color:#3d90bf;
+ padding-top:30px;
+ padding-bottom:30px;
+ color:#fff;
+ border-bottom:1px solid #63b2df;
+ border-top:3px solid #11bb25;
+}
+
+#footer-info-wrap a{
+color:#fff;
+}
+
+#footer-info-wrap a:hover{
+color:#fff;
+text-decoration: none;
+}
+
+#footer-copy-wrap{
+ background-color:#1B4054;
+ padding-top:30px;
+ padding-bottom:30px;
+ color:#fff;
+  border-top:1px solid #1b445b;
+}
+
+#footer-copy-wrap a{
+color:#fff;
+}
+
+#footer-copy-wrap a:hover{
+color:#fff;
+text-decoration: underline;
+}
+
+
+/** Home Styles **/
+
+body.home{
+ margin-top:-100px;
+}
+
+.topspace{
+    margin:100px auto;max-width:805px;
+    }
+
+.navbar-inverse {
+    background-color: rgba(0,0,0,.7)  !important;
+}
+
+ .top-nav-collapse {
+            background-color: rgba(0,0,0,.7)  !important;
+        }
+        /* Small Devices, Tablets */
+        
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: rgba(0,0,0,.7)  !important;
+            }
+        }
+#home-2, #home-3, #home-4, #home-1{
+ padding-top:60px;
+  padding-bottom:60px;
+}
+
+#home-3{color:#fff;}
+
+
+section#home-1, section#home-2, section#home-3, section#home-4, section#home-5{
+min-height:450px;
+height:auto;
+
+}
+
+section#home-1{
+color:#fff;
+}
+
+
+/* Social BG Colors */
+
+.tumblr-bg{
+background-color:#34465E !important;
+}
+
+.instagram-bg{
+background-color:#3f729b !important;
+}
+
+.twitter-bg{
+background-color:#00ACED !important;
+}
+
+.facebook-bg{
+background-color:#3B5998 !important;
+}
+
+.google-plus-bg{
+background-color:#DA4735 !important;
+}
+
+.pinterest-bg{
+background-color:#BE091C !important;
+}
+
+.linkedin-bg{
+background-color:#0077B5 !important;
+}
+
+.help-bg{
+background-color:#5d5d5d !important;
+}
+
+
+
+/** FAQs Styles **/
+
+
+
+
+/** Portfolio Styles **/
+
+.gal-container{
+	padding: 12px;
+}
+.gal-item{
+	overflow: hidden;
+	padding: 3px;
+}
+.gal-item .box{
+	height: 350px;
+	overflow: hidden;
+}
+.box img{
+	height: 100%;
+	width: 100%;
+	object-fit:cover;
+	-o-object-fit:cover;
+}
+.gal-item a:focus{
+	outline: none;
+}
+.gal-item a:after{
+	content:"\e003";
+	font-family: 'Glyphicons Halflings';
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	right: 3px;
+	left: 3px;
+	top: 3px;
+	bottom: 3px;
+	text-align: center;
+    line-height: 350px;
+    font-size: 30px;
+    color: #fff;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.gal-item a:hover:after{
+	opacity: 1;
+}
+.modal-open .gal-container .modal{
+	background-color: rgba(0,0,0,0.4);
+}
+.modal-open .gal-item .modal-body{
+	padding: 0px;
+}
+.modal-open .gal-item button.close{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    opacity: 1;
+    color: #fff;
+    z-index: 999;
+    right: -12px;
+    top: -12px;
+    border-radius: 50%;
+    font-size: 15px;
+    border: 2px solid #fff;
+    line-height: 25px;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
+	box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
+}
+.modal-open .gal-item button.close:focus{
+	outline: none;
+}
+.modal-open .gal-item button.close span{
+	position: relative;
+	top: -3px;
+	font-weight: lighter;
+	text-shadow:none;
+}
+.gal-container .modal-dialogue{
+	width: 80%;
+}
+.gal-container .description{
+	position: relative;
+	height: 40px;
+	top: -40px;
+	padding: 10px 25px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	text-align: left;
+}
+.gal-container .description h4{
+	margin:0px;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 20px;
+}
+.gal-container .modal.fade .modal-dialog {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+    top: 100px;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.gal-container .modal.fade.in .modal-dialog {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -100px, 0);
+    opacity: 1;
+}
+@media (min-width: 768px) {
+.gal-container .modal-dialog {
+    width: 55%;
+    margin: 50 auto;
+}
+}
+@media (max-width: 768px) {
+    .gal-container .modal-content{
+        height:250px;
+    }
+}
+/* Footer Style */
+i.red{
+    color:#BC0213;
+}
+.gal-container{
+    padding-top :75px;
+    padding-bottom:75px;
+}
+
+
+/** Map Styles **/
+
+.acf-map {
+	width: 100%;
+	height: 400px;
+	border: #ccc solid 1px;
+	margin-bottom: -50px;
+}
+
+/* fixes potential theme css conflict */
+.acf-map img {
+   max-width: inherit !important;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+

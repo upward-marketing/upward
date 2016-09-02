@@ -1,0 +1,7 @@
+[05-Aug-2016 18:40:03 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/upwardweb/public_html/wp-content/themes/upward/functions.php on line 82
+[07-Aug-2016 18:38:07 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/upwardweb/public_html/wp-content/themes/upward/header.php on line 2
+[07-Aug-2016 18:38:09 America/Chicago] PHP Fatal error:  Call to undefined function wp_nav_menu() in /home/upwardweb/public_html/wp-content/themes/upward/footer.php on line 16
+[07-Aug-2016 19:57:31 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/upwardweb/public_html/wp-content/themes/upward/header.php on line 2
+[07-Aug-2016 19:57:33 America/Chicago] PHP Fatal error:  Call to undefined function wp_nav_menu() in /home/upwardweb/public_html/wp-content/themes/upward/footer.php on line 16
+[10-Aug-2016 20:18:48 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/upwardweb/public_html/wp-content/themes/upward/functions.php on line 82
+[11-Aug-2016 00:15:27 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/upwardweb/public_html/wp-content/themes/upward/functions.php on line 82
